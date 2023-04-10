@@ -32,7 +32,7 @@ learning_rate: This variable specifies the learning rate to use during training.
 
 output_dir: This variable specifies the directory to save the fine-tuned model in. By default, the script saves the model in the current working directory, but you can specify a different directory if you prefer.
 
-Credits
+## Credits
 This script uses the Pegasus language model from the Hugging Face Transformers library, as well as several other Python packages including pandas, sentencepiece, and torch. The script was written by [Your Name].
 
 
