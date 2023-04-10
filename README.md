@@ -13,7 +13,7 @@ To use this script, you'll need to provide a CSV file containing your text data.
 
 Once you have your CSV file, you can run the script by running the following command:
 ```
-python summary_generator.py
+python summary_generator_FineTuned.py
 ```
 This will load the data from the CSV file, fine-tune the Pegasus model on the data, and generate summaries of new text using the fine-tuned model.
 
