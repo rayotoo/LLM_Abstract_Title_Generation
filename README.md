@@ -1,4 +1,4 @@
-[![CodeQL](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/codeql.yml/badge.svg)](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/codeql.yml)
+[![CodeQL](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/codeql.yml/badge.svg)](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/codeql.yml) [![Dependency Review](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/dependency-review.yml)
 
 # Summary Generator
 
