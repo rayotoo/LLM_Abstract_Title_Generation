@@ -22,15 +22,15 @@ By default, the script generates summaries of the text contained in the "text" v
 ## Configuration
 There are several configuration options available in the script, which you can modify to fine-tune the summarization process:
 
-model_name: This variable specifies the name of the pre-trained Pegasus model to use. By default, the script uses the "google/pegasus-xsum" model, which is a model fine-tuned on the CNN/Daily Mail dataset. You can replace this with the name of any other Pegasus model to use a different pre-trained model.
+- model_name: This variable specifies the name of the pre-trained Pegasus model to use. By default, the script uses the "google/pegasus-xsum" model, which is a model fine-tuned on the CNN/Daily Mail dataset. You can replace this with the name of any other Pegasus model to use a different pre-trained model.
 
-train_batch_size: This variable specifies the batch size to use during training. By default, the script uses a batch size of 1, which can be slow on large datasets. You can increase this to a larger value (e.g. 4 or 8) to speed up training, but this may require more memory.
+- train_batch_size: This variable specifies the batch size to use during training. By default, the script uses a batch size of 1, which can be slow on large datasets. You can increase this to a larger value (e.g. 4 or 8) to speed up training, but this may require more memory.
 
-num_train_epochs: This variable specifies the number of epochs to use during training. By default, the script uses 5 epochs, but you may need to increase this if your data is complex or if you want to achieve better summarization results.
+- num_train_epochs: This variable specifies the number of epochs to use during training. By default, the script uses 5 epochs, but you may need to increase this if your data is complex or if you want to achieve better summarization results.
 
-learning_rate: This variable specifies the learning rate to use during training. By default, the script uses a learning rate of 1e-5, which works well for most cases. You can experiment with higher or lower learning rates to see if this improves the summarization results.
+- learning_rate: This variable specifies the learning rate to use during training. By default, the script uses a learning rate of 1e-5, which works well for most cases. You can experiment with higher or lower learning rates to see if this improves the summarization results.
 
-output_dir: This variable specifies the directory to save the fine-tuned model in. By default, the script saves the model in the current working directory, but you can specify a different directory if you prefer.
+- output_dir: This variable specifies the directory to save the fine-tuned model in. By default, the script saves the model in the current working directory, but you can specify a different directory if you prefer.
 
 ## Credits
 This script uses the Pegasus language model from the Hugging Face Transformers library, as well as several other Python packages including pandas, sentencepiece, and torch. The script was written by [Your Name].
