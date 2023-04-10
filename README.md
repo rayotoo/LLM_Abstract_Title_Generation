@@ -1,3 +1,5 @@
+[![CodeQL](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/codeql.yml/badge.svg)](https://github.com/rayotoo/Abstract_Title_Generation/actions/workflows/codeql.yml)
+
 # Summary Generator
 
 This is a Python script that fine-tunes a Pegasus language model on a CSV file of text data, and uses the fine-tuned model to generate summaries of new text.
