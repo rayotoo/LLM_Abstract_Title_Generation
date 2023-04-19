@@ -4,7 +4,7 @@ import torch
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer, AdamW
 
 # Load data from CSV file
-data = pd.read_csv("cleaned_1000.csv")
+data = pd.read_csv("cleaned_10.csv")
 
 # Get the column names of the dataframe
 column_names = data.columns.tolist()
@@ -30,7 +30,7 @@ optimizer = AdamW(model.parameters(), lr=1e-5)
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 model.to(device)
 
-for epoch in range(5): # replace with number of epochs
+for epoch in range(2): # replace with number of epochs
     start_time = time.time()
     model.train()
     train_loss = 0
@@ -67,3 +67,4 @@ summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
 print(f'Original text: {text}')
 print(f'Summary: {summary}')
+print("Done!")
