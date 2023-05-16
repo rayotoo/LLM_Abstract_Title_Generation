@@ -1,5 +1,10 @@
 # Large CSV File Processing
 
+# Link to csv file
+```
+https://drive.google.com/file/d/1QCV45ysaz-2ghJyNkuh5NaoL9L2oxEKn/view?usp=sharing
+```
+
 This script processes a large CSV file containing 100,000 publications from the CORD-19 dataset and performs the following steps:
 
 1. Reads an extremely large CSV file named "pruned_100000.csv" which contains publications from the CORD-19 dataset.
