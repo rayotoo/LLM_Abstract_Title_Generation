@@ -27,7 +27,7 @@ pip install pandas
 
 4. Run the script using the following command:
 ```
-python script_name.py
+python journal_grouping.py
 ```
 
 Make sure to replace `script_name.py` with the actual name of the script file.
