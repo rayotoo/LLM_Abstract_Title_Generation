@@ -5,7 +5,7 @@
 This is a Python script that fine-tunes a Pegasus language model on a CSV file of text data, and uses the fine-tuned model to generate summaries of new text.
 
 ## Installation
-This script requires Python 3.x, as well as several Python packages including pandas, transformers, sentencepiece, and torch. You can install these packages using pip, by running the following command:
+This script requires Python 3.x and several Python packages including pandas, transformers, sentencepiece, and torch. You can install these packages using pip, by running the following command:
 
 ```
 pip install pandas transformers sentencepiece torch
